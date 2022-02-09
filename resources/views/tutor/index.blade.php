@@ -1,4 +1,4 @@
-@extends('layouts.layout')
+@extends('layout.nav')
 @section('content')
     @auth()
         <p>{{auth()->user()->name}}</p>
