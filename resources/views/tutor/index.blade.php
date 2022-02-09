@@ -52,7 +52,7 @@
                         {{--                        date type:date--}}
                         <div class="form-group">
                             <label><strong>@lang("Date") :</strong></label><br>
-                            <input type="date" name="date" class="form-control"  value="{{old('date')}}"/>
+                            <input type="date" name="date" class="form-control"  value="{{old('date')}}" required/>
                             {!! $errors->first('date','<small>:message</small><br>') !!}
                         </div>
                         {{--number type:number--}}
